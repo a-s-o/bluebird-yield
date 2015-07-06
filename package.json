@@ -1,0 +1,25 @@
+{
+  "name": "bluebird-yield",
+  "version": "1.0.0",
+  "description": "Function to add support for yielding ES6 generators, iterators, arrays and objects from Bluebird.coroutine()",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-s-o/bluebird-yield.git"
+  },
+  "keywords": [
+    "bluebird",
+    "yield"
+  ],
+  "author": "ASO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-s-o/bluebird-yield/issues"
+  },
+  "homepage": "https://github.com/a-s-o/bluebird-yield#readme",
+  "dependencies": {
+    "bluebird": "^2.9.32",
+    "is-es6-generators": "^1.0.2",
+    "is-iterator-like": "^1.0.4"
+  }
+}
