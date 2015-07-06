@@ -13,7 +13,7 @@ npm install bluebird-yield
 ```js
 // At the begging of you project add a yield handler
 const Bluebird = require('bluebird');
-Bluebird.addYieldHandler( require('bluebird-yield') );
+Bluebird.coroutine.addYieldHandler( require('bluebird-yield') );
 
 // You can now start yielding generators, iterators,
 // thunks, arrays and objects
